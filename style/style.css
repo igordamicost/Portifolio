@@ -101,23 +101,23 @@ footer{
     width: 85vw;
     margin-top: 50px;
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
     font-family: 'Teko', sans-serif;
     letter-spacing: 2px;
     transition: 300ms all ease-in-out;
     color: gray;
 }
 .img{
-    width: 50%;
-    height: auto;
-    padding-left: 150px;
-    padding-right: 100px;
-    opacity: 75%;
-    transition: 300ms all ease-in-out;
-
+    width: 350px;
+    padding-left: 70px;    
+    opacity: 30%;
+    transition: 700ms all ease-in-out;
+}
+.apresentacao{
+    margin-left:200px;
 }
 .img:hover{
-    opacity: 100%;
+    opacity: 80%;
 }
 .texto:hover{
     color:#000000;
