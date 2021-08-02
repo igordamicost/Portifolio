@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    color:#000000;
+    size: 90000rem;
+    background-color:rgb(248, 248, 248);
+}
+footer{
+    background-color: black;
+    height: 100px;
+    width: auto;
+    color: white;
+    text-align: center;
+   
+}
+@keyframes degrade {
+    0%{background-position: 0% 50%;}
+    50%{background-position: 0% 50%}
+    100%{background-position: 0% 50%;}
+}
+.header-content {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    position: center;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: center;
+    color: rgb(8, 8, 8);
+    font-family: 'Anton', sans-serif;
+    font-weight: 400px;
+    letter-spacing: 15px;
+    flex-direction: column;
+    font-size: 50px;
+    z-index: 1;
+}
+
+.header-content .firstline{
+    z-index: 2;
+    font-weight:700;
+    font-family: 'Anton', sans-serif;
+    font-size: 65px;
+    text-align: center;
+    
+}
+
+.header-content .secondline{
+    z-index: 2;
+    font-size: 30px;
+    padding-top:20px ;
+    font-weight:500;
+    color: rgba(48, 44, 44, 0.8);
+    text-align: center;
+    letter-spacing: 7px;
+}
+.slash{
+    animation-name: animateslash;
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    color:#6d1313;
+}
+.color{
+    color:#6d1313;
+}
+@keyframes animateslash{
+    0%{
+        opacity: 1;
+        z-index: 2;
+    }
+    100%{
+        opacity: 0;
+        z-index: 0;
+    }
+}
+@-webkit-keyframes animateslash{
+    0%{
+        opacity: 1;
+        z-index: 2;
+    }
+    100%{
+        opacity: 0;
+        z-index: 0;
+    }
+}
+
+.about-header{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 10px;
+    font-size: 25px;
+}
+
+.texto{
+    display: flex;
+    align-items: center;
+    width: 85vw;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 2px;
+    transition: 300ms all ease-in-out;
+    color: gray;
+}
+.img{
+    width: 50%;
+    height: auto;
+    padding-left: 150px;
+    padding-right: 100px;
+    opacity: 75%;
+    transition: 300ms all ease-in-out;
+
+}
+.img:hover{
+    opacity: 100%;
+}
+.texto:hover{
+    color:#000000;
+}
+.services-heading{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 10px;
+    font-size: 25px;
+    margin-top: 170px;
+    margin-bottom: 170px;
+
+}
+
+.services-heading1{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 10px;
+    font-size: 25px;
+    margin-top: 170px;
+    margin-bottom: 170px;
+}
+.canais{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 10px;
+    font-size: 25px;
+    margin-top: 170px;
+    margin-bottom: 170px; 
+}
+.icons{
+    flex-direction: line;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 170px;
+}
+.social-media{
+    width:  75px;
+    opacity: .6;
+    margin: 8px;
+    flex-direction: line;
+    transition: all .4s ease;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 25px;
+
+}
+.footer p{
+    display: flex;
+    padding: 40px;
+    margin-left: 350px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 7px;
+}
